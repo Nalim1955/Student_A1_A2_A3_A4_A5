@@ -106,7 +106,7 @@ public:
 bool Student_cls::vlozZnamku(int znamka)
 {
 
-    if (pocetZnamok_int < 10 && znamka >= 1 && znamka <= 5) // kontrola dostupného miesta v poli a platnosti znamky
+    if (pocetZnamok_int < 10 && znamka >= 1 && znamka <= 5) // kontrola dostupnÃ©ho miesta v poli a platnosti znamky
     {
         znamky[pocetZnamok_int++] = znamka;
         return true;
